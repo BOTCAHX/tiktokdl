@@ -4,7 +4,7 @@ npm i tiktokdl
 ```
 # Example
 ```js
-const { tiktokdl } = require('btch-downloader') 
+const { tiktokdl } = require('tiktokdl') 
 
 const url = 'https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226'
 // Using tiktokdl
