@@ -2,6 +2,8 @@
 ```sh
 npm i tiktokdl
 ```
+#### [Demo Projects](https://github.com/BOTCAHX/tiktokdl-api)
+
 # Example
 ```js
 const { tiktokdl } = require('tiktokdl') 
