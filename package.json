@@ -1,13 +1,21 @@
 {
   "name": "tiktokdl",
-  "version": "0.0.4",
-  "description": "Tiktok Downloader.",
+  "version": "0.0.5",
+  "description": "Library for downloading videos from TikTok (without watermark)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tiktok"
+    "tiktokdl",
+    "downloader",
+    "tiktok-api", 
+    "tiktok-user",
+    "tiktok-dl",
+    "tiktok-no-watermark",
+    "tiktok-watermark",
+    "musically",
+    "tikvm"
   ],
   "author": "Tio",
   "license": "MIT",
