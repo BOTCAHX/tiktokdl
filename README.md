@@ -2,15 +2,22 @@
 ```sh
 npm i tiktokdl
 ```
-#### [Demo Projects](https://github.com/BOTCAHX/tiktokdl-api)
-
-# Example
+# Example For CommonJS
 ```js
 const { tiktokdl } = require('tiktokdl') 
 
 const url = 'https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226'
 // Using tiktokdl
 const data = await tiktokdl(url)
+console.log(data) // JSON
+```
+# Example For TypeScript
+```ts
+import { tiktokdl: TikTok } from "tiktokdl"
+
+const url = 'https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226'
+// Using tiktokdl
+const data = await TikTok(url)
 console.log(data) // JSON
 ```
 
